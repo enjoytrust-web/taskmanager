@@ -5,22 +5,14 @@
 
 
 
-
-
 /* ======= Wordpress バージョン情報非表示 ======= */
 remove_action('wp_head','wp_generator');
-
-
-
 
 
 /* ======= 更新情報非表示 ======= */
 if (!current_user_can('administrator')) {
   add_filter('pre_site_transient_update_core', '__return_zero');
 }
-
-
-
 
 
 /* ======= ヘッダの余計なタグ排除 ======= */
@@ -33,8 +25,6 @@ remove_action('wp_head', 'feed_links_extra', 3);
 remove_action('wp_head', 'start_post_rel_link', 10, 0);
 remove_action('wp_head', 'parent_post_rel_link', 10, 0);
 remove_action('wp_head', 'adjacent_posts_rel_link', 10, 0);
-
-
 
 
 

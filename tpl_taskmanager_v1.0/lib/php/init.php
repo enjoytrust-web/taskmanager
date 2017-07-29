@@ -75,8 +75,8 @@ add_action('wp_before_admin_bar_render', 'add_new_item_in_admin_bar');
 function change_post_menu_label() {
 global $menu;
 global $submenu;
-$menu[5][0] = '使用しない';
-$submenu['edit.php'][5][0] = '使用しない';
+$menu[5][0] = 'タスク';
+$submenu['edit.php'][5][0] = 'タスク';
 $submenu['edit.php'][10][0] = '新規追加';
 $submenu['edit.php'][16][0] = 'タグ';
 //echo ";
@@ -84,16 +84,16 @@ $submenu['edit.php'][16][0] = 'タグ';
 function change_post_object_label() {
 global $wp_post_types;
 $labels = &$wp_post_types['post']->labels;
-$labels->name = '使用しない';
-$labels->singular_name = '使用しない';
-$labels->add_new = _x('追加', '使用しない');
-$labels->add_new_item = '新規追加';
-$labels->edit_item = '更新内容の編集';
+$labels->name = 'タスク';
+$labels->singular_name = 'タスク';
+$labels->add_new = _x('追加', 'タスク');
+$labels->add_new_item = 'タスクの新規追加';
+$labels->edit_item = 'タスク内容の編集';
 $labels->new_item = '新規追加';
-$labels->view_item = '更新一覧を表示';
-$labels->search_items = '更新一覧から検索';
-$labels->not_found = '記事が見つかりませんでした';
-$labels->not_found_in_trash = 'ゴミ箱に記事は見つかりませんでした';
+$labels->view_item = 'タスク一覧を表示';
+$labels->search_items = 'タスク一覧から検索';
+$labels->not_found = 'タスクが見つかりませんでした';
+$labels->not_found_in_trash = 'ゴミ箱にタスクは見つかりませんでした';
 }
 add_action( 'init', 'change_post_object_label' );
 add_action( 'admin_menu', 'change_post_menu_label' );

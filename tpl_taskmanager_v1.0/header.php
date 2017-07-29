@@ -5,7 +5,7 @@
   <meta name="description" content="">
   <meta name="robots" content="index,follow">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>GIRAFFE JAPAN</title>
+  <title>TASK MANAGER</title>
 
   <!-- StyleSheet -->
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/lib/css/style.css">
@@ -40,9 +40,6 @@
   <!-- Google+ -->
     <link rel="author" href="">
 </head>
-<!-- ▼ write your contents ▼ -->
-
-
 <body>
 <!-- ▼ write your contents ▼ -->
 
