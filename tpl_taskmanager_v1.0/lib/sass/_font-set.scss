@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'DINProBlack';
+	src:
+	     url('../fonts/DINPro-Black.woff') format('woff'),
+	     url('../fonts/DINPro-Black.woff2') format('woff2'),
+	     url('../fonts/DINPro-Black.ttf')  format('truetype'),
+	     url('../fonts/DINPro-Black.otf')  format('opentype'),
+}
+
+
+@font-face {
+	font-family: 'DINProBold';
+	src:
+	     url('../fonts/DIN-Bold.woff') format('woff'),
+	     url('../fonts/DIN-Bold.woff2') format('woff2'),
+	     url('../fonts/DIN-Bold.ttf')  format('truetype'),
+	     url('../fonts/DIN-Bold.otf')  format('opentype'),
+}
+
+@font-face {
+	font-family: 'DINProLight';
+	src:
+	     url('../fonts/DINPro-Light.woff') format('woff'),
+	     url('../fonts/DINPro-Light.woff2') format('woff2'),
+	     url('../fonts/DINPro-Light.ttf')  format('truetype'),
+	     url('../fonts/DINPro-Light.otf')  format('opentype'),
+}
+
+@font-face {
+	font-family: 'DINProRegular';
+	src:
+	     url('../fonts/DINPro-Regular.woff') format('woff'),
+	     url('../fonts/DINPro-Regular.woff2') format('woff2'),
+	     url('../fonts/DINPro-Regular.ttf')  format('truetype'),
+	     url('../fonts/DINPro-Regular.otf')  format('opentype'),
+}
+
+
+@font-face {
+  font-family:'mb101';
+  font-weight:600;
+  src:
+  		url("../fonts/mb101heavy.woff") format("woff"),
+  		url("../fonts/mb101heavy.woff2") format("woff2"),
+  		url("../fonts/mb101heavy.ttf") format("truetype"),
+  		url("../fonts/mb101heavy.otf") format("opentype"),
+}
