@@ -1,0 +1,11 @@
+﻿#sftpファイルは共有しない
+sftp-config.json
+
+#style.cssはバッティングするので共有しない
+**/lib/**/style.css
+
+#sftpファイルは共有しない
+*/sftp-config.json
+
+#無限に増えるsass.cacheは共有しない
+*/.sass-cache
