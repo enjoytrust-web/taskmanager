@@ -56,4 +56,4 @@
 //     'capability' => 'edit_posts',
 //     'redirect' => false
 //   ));
-}
+//}
