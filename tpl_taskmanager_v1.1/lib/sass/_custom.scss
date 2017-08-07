@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/*==============================
+-Custom
+===============================*/
+
+
+.subheader {
+  display: block;
+  padding: 1rem;
+  background: #db4c3f;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.admin-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.admin-image img {
+  border-radius: 50%;
+}
+
+.admin-name {
+  text-align: center;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.admin-image,
+.admin-name {
+  display: inline-block;
+  // line-height: 64px;
+}
+
+
+.task-edit {
+  background: #454545;
+  border-radius: 6px;
+  color: #fcfcfc;
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  height: 40px;
+  max-width: 200px;
+  position: absolute;
+  padding: .9rem 1rem;
+  top: 0;
+  right: 1rem;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+}
+
+.l-wrapper {
+  padding: 100px 0;
+}
+
+.task-list-card {
+  border: solid 2rem #fff;
+  display: block;
+  padding: 4rem;
+  margin-top: 4rem;
+  box-shadow: 0px 3px 8px 1px #cfcfcf;
+
+  &:hover {
+    border-color: #db4c3f;
+  }
+}
+
+.task-title {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #333;
+
+  &+.task-label {
+    margin-top: 2rem;
+  }
+}
+
+.task-label {
+  color: #fcfcfc;
+  background: #db4c3f;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: inline-block;
+  padding: .5rem 1rem;
+}
+
+.task-lead {
+  color: #454545;
+  font-size: 2rem;
+  font-weight: 800;
+
+  &+.task-label {
+    margin-top: 2rem;
+  }
+}
+
+.keishou {
+  font-size: 1.2rem;
+}
