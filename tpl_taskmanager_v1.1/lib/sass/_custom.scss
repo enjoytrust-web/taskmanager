@@ -5,8 +5,11 @@
 ===============================*/
 
 
+
+
 .subheader {
   display: block;
+  font-family: 'mb101';
   padding: 1rem;
   background: #db4c3f;
   width: 100%;
@@ -63,13 +66,16 @@
 .task-list-card {
   border: solid 2rem #fff;
   display: block;
-  padding: 4rem;
+  padding: 2rem;
   margin-top: 4rem;
   box-shadow: 0px 3px 8px 1px #cfcfcf;
 
-  &:hover {
-    border-color: #db4c3f;
-  }
+  position: relative;
+  overflow: hidden;
+
+  // &:hover {
+  //   border-color: #db4c3f;
+  // }
 }
 
 .task-title {
@@ -94,7 +100,8 @@
 .task-lead {
   color: #454545;
   font-size: 2rem;
-  font-weight: 800;
+  font-family: 'mb101';
+  font-weight: 400;
 
   &+.task-label {
     margin-top: 2rem;
@@ -102,5 +109,189 @@
 }
 
 .keishou {
+  color: #999;
+  font-size: 1rem;
+}
+
+
+
+.index {
+  border-left: solid 5px #999;
+  color: #999;
+  font-family: 'mb101';
+  font-size: 1rem;
+  font-weight: 500;
+  padding-top: .4rem;
+  padding-left: 1rem;
+  display: block;
+  position: relative;
+
+  &+.lead {
+    margin-top: .2rem;
+  }
+}
+
+.lead {
+  font-family: 'mb101';
+  padding-left: 1.5rem;
+
+  &+.index {
+    margin-top: 2rem;
+  }
+}
+
+.label {
+  background: #333;
+  color: #fcfcfc;
+  display: inline-block;
+  margin-right: 1rem;
+  padding: .5rem 1rem;
+}
+
+.taskinfo-date {
+  font-family: 'mb101';
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.task-lead-small {
   font-size: 1.2rem;
+  color: #db4c3f;
+  font-weight: 800;
+}
+
+.lead-title {
+  color: #999;
+  font-family: 'mb101';
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.lead-large {
+  color: #db4c3f;
+  font-family: 'mb101';
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.lead-medium {
+  color: #454545;
+  font-size: 1.6rem;
+}
+
+.lead-small {
+  color: #666;
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+
+.lead-minimum {
+  color: #666;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.lead-label {
+  color: #111;
+}
+
+.button-group {
+  margin-top: 4rem;
+}
+
+.tasklist-edit {
+  border: solid 3px #db4c3f;
+  color: #db4c3f;
+  text-align :center;
+  font-family: 'mb101';
+  font-weight: 600;
+  padding: 1rem 0 .8rem;
+
+  &:hover {
+    background: #db4c3f;
+    color: #fcfcfc;
+  }
+
+  @include max(767) {
+    margin-bottom: 1rem;
+  }
+}
+
+.tasklist-info {
+  border: solid 3px #db4c3f;
+  color: #db4c3f;
+  text-align :center;
+  font-family: 'mb101';
+  font-weight: 600;
+  padding: 1rem 0 .8rem;
+  &:hover {
+    background: #db4c3f;
+    color: #fcfcfc;
+  }
+}
+
+.card-corner {
+  background: #db4c3f;
+  border-radius: 50%;
+  display: block;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  &.graphic {
+    background: #db4c3f;
+
+    &::after {
+      content: 'G';
+      display: block;
+      font-size: 3rem;
+      color: #fcfcfc;
+      @include position-center;
+      padding-top: 100%;
+      top: .5rem;
+      text-align: center;
+      font-family: 'mb101';
+      font-weight: 700;
+    }
+
+  }
+
+  &.web {
+    background: #2b7b86;
+
+    &::after {
+      content: 'W';
+      display: block;
+      font-size: 3rem;
+      color: #fcfcfc;
+      @include position-center;
+      padding-top: 100%;
+      top: .6rem;
+      text-align: center;
+      font-family: 'mb101';
+      font-weight: 700;
+    }
+
+  }
+
+  &.movie {
+    background: #067319;
+
+    &::after {
+      content: 'M';
+      display: block;
+      font-size: 3rem;
+      color: #fcfcfc;
+      @include position-center;
+      padding-top: 100%;
+      top: .6rem;
+      text-align: center;
+      font-family: 'mb101';
+      font-weight: 700;
+    }
+
+  }
+
 }
