@@ -39,6 +39,7 @@
     <meta name="twitter:card" value="">
   <!-- Google+ -->
     <link rel="author" href="">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" rel="stylesheet">
 </head>
 <body>
 <!-- ▼ write your contents ▼ -->

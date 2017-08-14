@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/*==============================
+-Component Clock Style
+===============================*/
+.c-clock {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: auto;
+  width: 100%;
+}
+
+.c-clock-text {
+  color: #fcfcfc;
+  display: inline-block;
+  background: #db4c3f;
+  font-size: 2rem;
+  padding: 2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: right;
+  position: absolute;
+  right: 0;
+}

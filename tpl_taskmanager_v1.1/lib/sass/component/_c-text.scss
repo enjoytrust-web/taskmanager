@@ -2,32 +2,60 @@
 /*==============================
 -Component Text Style
 ===============================*/
+
+/* 大見出し */
 .c-text-heading {
   font-size: 4rem;
   font-weight: 600;
 }
 
+/* 中見出し */
 .c-text-subheading {
   font-size: 2rem;
   font-weight: 600;
-}
-
-.c-text-label {
-  color: #db4c3f;
-  font-weight: 600;
-  font-size: 1.2rem;
-}
-
-.c-text-lead {
-  font-size: 1.6rem;
 
   &+.c-text-label {
-    margin-top: 3rem;
+    margin-top: 4rem;
   }
 }
 
+/* 項目タイトル */
+.c-text-label {
+  // background: #666;
+  border: solid 1px #666;
+  color: #666;
+  display: inline-block;
+  font-weight: 600;
+  font-size: .9rem;
+  padding: .4rem 1rem;
+
+  &+.c-text-lead {
+    margin-top: .2rem;
+  }
+}
+
+/* 本文 */
+.c-text-lead {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 600;
+
+  &+.c-text-label {
+    margin-top: 2rem;
+  }
+
+}
+
+/* 注意書き */
 .c-text-notes {
   font-size: 1rem;
   font-weight: 600;
   color: #666;
+}
+
+
+/* 固有のスタイル */
+.c-text-caution {
+  color: #db4c3f;
+  font-weight: 800;
 }
