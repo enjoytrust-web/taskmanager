@@ -26,24 +26,57 @@ universal stylesheets import file
 @import "config/_variable.scss";
 @import "config/_global.scss";
 @import "protect/_font.scss";
-@import "font-scss/_font-awesome.scss";
+@import "font-awesome/_font-awesome.scss";
 
 /*==============================
 grid system
 ===============================*/
 @import "config/_grid.scss";
 @import "config/_flex.scss";
-
-
-@import "_animation.scss";
-@import "_mediaquery.scss";
+@import "config/_mediaquery.scss";
+@import "animation/_animation.scss";
 
 
 
 /*==============================
+Usage webfont (@font-face setting)
+===============================*/
+@import "webfont/_webfont.scss";
+
+
+/*==============================
+Layout
+===============================*/
+@import "layout/_l-header.scss";
+@import "layout/_l-main.scss";
+@import "layout/_l-sub.scss";
+@import "layout/_l-footer.scss";
+
+
+/*==============================
+Pages
+===============================*/
+@import "page/_page.scss";
+
+// Individual settings
+@import "page/_p-affairs.scss";
+@import "page/_p-graphic.scss";
+@import "page/_p-web.scss";
+@import "page/_p-movie.scss";
+
+/*==============================
+Single
+===============================*/
+@import "single/_single.scss";
+
+// Individual settings
+@import "single/_single.scss";
+
+
+/*==============================
+Component
+===============================*/
+@import "component/_component.scss";
+/*==============================
 users
 ===============================*/
-
-
-@import "_font-set.scss";
-@import "_custom.scss";

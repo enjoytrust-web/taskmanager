@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*==============================
+-Grobal Navigation Style
+===============================*/
+.c-nav {
+  background: #db4c3f;
+  display: table;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  width: 10%;
+  z-index: 9998;
+  @include prefix(transform, translateX(-100%));
+  @include prefix(transition, .2s);
+
+  @include max(1024) {
+    width: 100%;
+  }
+}
+
+.c-nav-list {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+.c-nav-listin-item {
+  color: #fcfcfc;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: .5rem;
+
+  &:hover {
+    @include prefix(transform, translateX(15px));
+  }
+
+  @include max(1024) {
+    text-align: center;
+    padding: 1.5rem 0;
+
+    &:hover {
+      @include prefix(transform, translateX(0));
+      background: #333;
+    }
+
+  }
+
+}

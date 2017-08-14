@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/*==============================
+-Component Button Style
+===============================*/
+.c-button-ghost {
+  border: solid 2px #db4c3f;
+  color: #db4c3f;
+  font-weight: 600;
+  padding: 1rem 0;
+  text-align: center;
+
+  &:hover {
+    background: #db4c3f;
+    color: #fcfcfc;
+  }
+
+  &+.c-button-ghost {
+
+    @include max(1024) {
+      margin-top: 2rem;
+    }
+
+  }
+
+}
+
+.c-button-inwrap {
+
+  &+.c-button-inwrap {
+
+    @include max(1024) {
+      margin-top: 2rem;
+    }
+
+  }
+
+}

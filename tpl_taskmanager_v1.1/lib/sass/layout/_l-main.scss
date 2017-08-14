@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*==============================
+-Main
+===============================*/
+
+/* Argument */
+$triggerWidth: 60px;
+
+.l-main {
+  display: block;
+  position: absolute;
+  left: 60px;
+  padding: 30px;
+  width: calc( 100% - #{$triggerWidth} );
+  @include prefix(transition, .2s);
+
+  @include max(1024) {
+    padding-top: 90px;
+    left: 0;
+    width: 100%;
+  }
+}

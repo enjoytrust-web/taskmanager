@@ -43,6 +43,44 @@
 <body>
 <!-- ▼ write your contents ▼ -->
 
+<header class="l-header">
 
+  <nav class="c-nav">
+    <ul class="c-nav-list">
+      <li class="c-nav-listin">
+        <a href="" class="c-nav-listin-item">
+          タスクトップ
+        </a>
+      </li>
+      <li class="c-nav-listin">
+        <a href="" class="c-nav-listin-item">
+          グラフィック
+        </a>
+      </li>
+      <li class="c-nav-listin">
+        <a href="" class="c-nav-listin-item">
+          ウェブ
+        </a>
+      </li>
+      <li class="c-nav-listin">
+        <a href="" class="c-nav-listin-item">
+          映像
+        </a>
+      </li>
+      <li class="c-nav-listin">
+        <a href="" class="c-nav-listin-item">
+          総務
+        </a>
+      </li>
+    </ul>
+  </nav>
 
-<!-- <?php wp_head(); ?> -->
+  <div class="c-trigger" id="js-trigger">
+    <div class="c-trigger-line"></div>
+    <div class="c-trigger-line"></div>
+    <div class="c-trigger-line"></div>
+  </div>
+
+</header>
+
+<?php wp_head(); ?>

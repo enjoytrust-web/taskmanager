@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/*==============================
+-Trigger Style
+===============================*/
+.c-trigger {
+  background: #db4c3f;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 60px;
+  z-index: 9999;
+}
+
+.c-trigger-line {
+  background: #fcfcfc;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 3px;
+  width: 60%;
+  @include prefix(transition, .2s);
+
+  &:nth-of-type(1) {
+    // @include prefix(transform, rotate(45deg));
+    top: -2rem;
+  }
+
+  &:nth-of-type(2) {
+    // width: 0;
+  }
+
+  &:nth-of-type(3) {
+    // @include prefix(transform, rotate(315deg));
+    bottom: -2rem;
+  }
+
+}

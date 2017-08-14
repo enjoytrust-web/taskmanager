@@ -1,0 +1,19 @@
+@charset 'UTF-8';
+/*==============================
+-Sub
+===============================*/
+.l-sub {
+  background: #db4c3f;
+  height: 100vh;
+  display: inline-block;
+  width: 10vw;
+  @include prefix(transition,.2s);
+  z-index: 1;
+
+  @include max(1024) {
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+  }
+}

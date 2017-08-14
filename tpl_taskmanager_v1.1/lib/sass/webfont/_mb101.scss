@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'mb101';
+  src: url('mb101/mb101pro-light.eot'); /* prefixed for IE9 later */;
+  src: url('mb101/mb101pro-light.eot?#iefix') format('embedded-opentype'), /* prefixed for IE8 later */
+       url('mb101/mb101pro-light.woff') format('woff'), /* モダンブラウザ用 */
+       url('mb101/mb101pro-light.otf') format('opentype'), /* モダンブラウザ用 */
+       url('mb101/mb101pro-light.ttf') format('truetype'); /* iOS,Android用 */
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mb101';
+  src: url('mb101/mb101pro-reg.eot'); /* prefixed for IE9 later */;
+  src: url('mb101/mb101pro-reg.eot?#iefix') format('embedded-opentype'), /* prefixed for IE8 later */
+       url('mb101/mb101pro-reg.woff') format('woff'), /* モダンブラウザ用 */
+       url('mb101/mb101pro-reg.otf') format('opentype'), /* モダンブラウザ用 */
+       url('mb101/mb101pro-reg.ttf') format('truetype'); /* iOS,Android用 */
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mb101';
+  src: url('mb101/mb101pro-medium.eot'); /* prefixed for IE9 later */;
+  src: url('mb101/mb101pro-medium.eot?#iefix') format('embedded-opentype'), /* prefixed for IE8 later */
+       url('mb101/mb101pro-medium.woff') format('woff'), /* モダンブラウザ用 */
+       url('mb101/mb101pro-medium.otf') format('opentype'), /* モダンブラウザ用 */
+       url('mb101/mb101pro-medium.ttf') format('truetype'); /* iOS,Android用 */
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mb101';
+  src: url('mb101/mb101pro-DeBold.eot'); /* prefixed for IE9 later */;
+  src: url('mb101/mb101pro-DeBold.eot?#iefix') format('embedded-opentype'), /* prefixed for IE8 later */
+       url('mb101/mb101pro-DeBold.woff') format('woff'), /* モダンブラウザ用 */
+       url('mb101/mb101pro-DeBold.otf') format('opentype'), /* モダンブラウザ用 */
+       url('mb101/mb101pro-DeBold.ttf') format('truetype'); /* iOS,Android用 */
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mb101';
+  src: url('mb101/mb101pro-Bold.eot'); /* prefixed for IE9 later */;
+  src: url('mb101/mb101pro-Bold.eot?#iefix') format('embedded-opentype'), /* prefixed for IE8 later */
+       url('mb101/mb101pro-Bold.woff') format('woff'), /* モダンブラウザ用 */
+       url('mb101/mb101pro-Bold.otf') format('opentype'), /* モダンブラウザ用 */
+       url('mb101/mb101pro-Bold.ttf') format('truetype'); /* iOS,Android用 */
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mb101';
+  src: url('mb101/mb101pro-Heavy.eot'); /* prefixed for IE9 later */;
+  src: url('mb101/mb101pro-Heavy.eot?#iefix') format('embedded-opentype'), /* prefixed for IE8 later */
+       url('mb101/mb101pro-Heavy.woff') format('woff'), /* モダンブラウザ用 */
+       url('mb101/mb101pro-Heavy.otf') format('opentype'), /* モダンブラウザ用 */
+       url('mb101/mb101pro-Heavy.ttf') format('truetype'); /* iOS,Android用 */
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mb101';
+  src: url('mb101/mb101pro-Ultra.eot'); /* prefixed for IE9 later */;
+  src: url('mb101/mb101pro-Ultra.eot?#iefix') format('embedded-opentype'), /* prefixed for IE8 later */
+       url('mb101/mb101pro-Ultra.woff') format('woff'), /* モダンブラウザ用 */
+       url('mb101/mb101pro-Ultra.otf') format('opentype'), /* モダンブラウザ用 */
+       url('mb101/mb101pro-Ultra.ttf') format('truetype'); /* iOS,Android用 */
+  font-weight: 700;
+  font-style: normal;
+}

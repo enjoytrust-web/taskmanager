@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*==============================
+-Animation
+===============================*/
+
+/*
+//Overview//
+-1.Argument Settings
+-2.Maincontent Animation Style
+-3.Menutrigger Animation Style
+-4.Navigationmenu Animetion Style
+*/
+
+/* Argument */
+$triggerWidth: 60px;
+
+/* Maincontent Animation Style */
+.l-main.is-active {
+  left: 10%;
+  width: 90%;
+}
+
+/* Menutrigger Animation Style */
+.c-trigger-line.is-active {
+  &:nth-of-type(1) {
+    @include prefix(transform, rotate(45deg));
+    top: 0;
+  }
+
+  &:nth-of-type(2) {
+    @include prefix(transform, rotate(45deg));
+  }
+
+  &:nth-of-type(3) {
+    @include prefix(transform, rotate(135deg));
+    bottom: 0;
+  }
+
+}
+
+/* Navigationmenu Animetion Style */
+.c-nav.is-active {
+  @include prefix(transform, translateX(0));
+}

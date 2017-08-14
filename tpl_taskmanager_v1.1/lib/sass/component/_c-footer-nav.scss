@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/*==============================
+-Footer Navigation
+===============================*/
+.c-footer-nav {
+}
+
+.c-footer-nav-list {
+  @include l-row;
+}
+
+.c-footer-nav-listin {
+  @include l-grid-3;
+}
+
+.c-footer-nav-listin-item {
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}

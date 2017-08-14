@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/*==============================
+-Component Text Style
+===============================*/
+.c-text-heading {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.c-text-subheading {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.c-text-label {
+  color: #db4c3f;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.c-text-lead {
+  font-size: 1.6rem;
+
+  &+.c-text-label {
+    margin-top: 3rem;
+  }
+}
+
+.c-text-notes {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #666;
+}
