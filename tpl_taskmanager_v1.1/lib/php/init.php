@@ -97,3 +97,8 @@ $labels->not_found_in_trash = 'ゴミ箱にタスクは見つかりませんで�
 }
 add_action( 'init', 'change_post_object_label' );
 add_action( 'admin_menu', 'change_post_menu_label' );
+
+function change_title_text_all( $title ) {
+  return $title = 'わかりやすいタスク名を入力してください（管理用）';
+}
+add_filter( 'enter_title_here', 'change_title_text_all' );

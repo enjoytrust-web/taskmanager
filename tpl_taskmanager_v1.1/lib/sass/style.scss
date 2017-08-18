@@ -11,13 +11,13 @@ reset select import file
 -----normalize.scss v1-v5
 -----sanitize.scss
 ===============================*/
-@import "protect/_reset.scss";
-//@import "protect/_normalize-v1.scss";
-//@import "protect/_normalize-v2.scss";
-//@import "protect/_normalize-v3.scss";
-//@import "protect/_normalize-v4.scss";
-//@import "protect/_normalize-v5.scss";
-//@import "protect/_sanitize.scss";
+@import "reset/_reset.scss";
+//@import "reset/_normalize-v1.scss";
+//@import "reset/_normalize-v2.scss";
+//@import "reset/_normalize-v3.scss";
+//@import "reset/_normalize-v4.scss";
+//@import "reset/_normalize-v5.scss";
+//@import "reset/_sanitize.scss";
 
 
 /*==============================
@@ -25,7 +25,7 @@ universal stylesheets import file
 ===============================*/
 @import "config/_variable.scss";
 @import "config/_global.scss";
-@import "protect/_font.scss";
+@import "reset/_font.scss";
 @import "font-awesome/_font-awesome.scss";
 
 /*==============================

@@ -79,8 +79,6 @@ if ( $screen->post_type == 'post' ) {     //投稿
       $title = 'タイトルを入力してください。';
 }elseif ( $screen->post_type == 'page' ) {     //固定ページ
       $title = 'ページタイトルを入力してください。';
-}elseif ( $screen->post_type == 'graphic_task' ) {     //カスタム投稿タイプ：interviewt
-       $title = '案件名を入力してください。';
 }
   return $title;
 }
