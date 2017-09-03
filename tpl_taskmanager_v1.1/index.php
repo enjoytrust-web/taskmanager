@@ -1,6 +1,10 @@
-<?php get_header(); ?>
+<?php include('l-header.php'); ?>
 
-<?php include('sub.php'); ?>
-<?php include('main.php'); ?>
+<div class="l-main">
+  <?php if( is_home() ) : // トップページのみに表示?>
+    <?php include('c-topvisual.php'); ?>
+  <?php endif;?>
+  <?php include('l-main.php'); //メインコンテンツエリア?>
+</div>
 
-<?php get_footer(); ?>
+<?php include('l-footer.php'); ?>

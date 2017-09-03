@@ -71,6 +71,7 @@ add_filter( 'manage_posts_columns', 'my_posts_columns' );
   }
 
 add_action('admin_menu', 'remove_administrator_menus');//管理者の場合
+add_action('admin_menu', 'remove_adminuser_menus');//管理者の場合
 
 
 function change_default_title( $title ) {
@@ -83,3 +84,30 @@ if ( $screen->post_type == 'post' ) {     //投稿
   return $title;
 }
 add_filter( 'enter_title_here', 'change_default_title' );
+
+function change_role_name() {
+  global $wp_roles;
+  if ( !isset($wp_roles) )
+    $wp_roles = new WP_Roles();
+
+    // 「購読者」を「こうどくしゃ」に変更
+    $wp_roles -> roles ['subscriber']['name'] = '購読者';
+    $wp_roles -> role_names ['subscriber'] = '購読者';
+
+    // 「寄稿者」を「きこうしゃ」に変更
+    $wp_roles -> roles ['contributor']['name'] = '寄稿者';
+    $wp_roles -> role_names ['contributor'] = '寄稿者';
+
+    // 「投稿者」を「とうこうしゃ」に変更
+    $wp_roles -> roles ['author']['name'] = '投稿者';
+    $wp_roles -> role_names ['author'] = '投稿者';
+
+    // 「編集者」を「へんしゅうしゃ」に変更
+    $wp_roles -> roles ['editor']['name'] = 'ENJOYTRUST';
+    $wp_roles -> role_names ['editor'] = 'ENJOYTRUST';
+
+    // 「管理者」を「かんりしゃ」に変更
+    $wp_roles -> roles ['administrator']['name'] = 'システム管理者';
+    $wp_roles -> role_names ['administrator'] = 'システム管理者';
+}
+add_action ( 'init', 'change_role_name' );
